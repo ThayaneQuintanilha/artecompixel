@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(fundo\ para\ projeto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Varela Round, sans-serif;
+}
+
+#title {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 70px;
+  color: white;
+}
+
+.titulo-azul {
+  color: blue;
+  text-shadow: 2px 2px 0 white;
+}
+
+/* Bolinhas coloridas */
+#color-palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* .selected {
+  background-color: black;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 3px 9px 15px -10px black;
+} */
+
+.color {
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 3px 9px 15px -10px black;
+}
+
+.color-red {
+  border: 1px solid black;
+  /* background-color: red; */
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 3px 9px 15px -10px black;
+}
+
+.color-purple {
+  border: 1px solid black;
+  /* background-color: purple; */
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 3px 9px 15px -10px black;
+}
+
+.color-blue {
+  border: 1px solid black;
+  /* background-color: blue; */
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 3px 9px 15px -10px black;
+}
+
+/* quadradinhos */
+#pixel-board-middle {
+  text-align: center;
+  
+}
+
+#pixel-board {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px auto;
+  width: 220px;
+  height: 220px;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 4px 3px 5px 0 rgba(0, 0, 0, 0.45);
+}
+
+.color:hover {
+  opacity: 0.7;
+}
+
+/* Botões e Input */
+#botoes-input {
+  text-align: center;
+  margin: 40px 0 40px 0;
+}
+
+#botoes-input a {
+  padding: 10px 20px;
+  background-color: white;
+  margin: 0 15px;
+  color: black;
+  border-radius: 50px;
+}
+
+#botoes-input input {
+  padding: 8px;
+  max-width: 190px;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.35);
+}
